@@ -41,7 +41,7 @@ HIT HELP FOR COMMAND /help.
 
 """
 
-BOT_IMG = "https://telegra.ph/file/4a45612f3e9920f61ff04.jpg"
+BOT_IMG = "https://telegra.ph/file/43dbb113e4431ebc283f4.jpg"
 
 
 HELP_STRINGS = """
