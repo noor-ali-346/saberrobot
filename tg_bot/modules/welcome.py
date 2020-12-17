@@ -100,7 +100,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
-                update.effective_message.reply_text("Whoa! A member of the Heroes Association just joined!")
+                update.effective_message.reply_text("Whoa! A member of the jassica support just joined!")
 
             # Welcome Sudos
             elif new_mem.id in SUDO_USERS:
