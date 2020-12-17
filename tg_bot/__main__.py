@@ -29,13 +29,11 @@ PM_START_TEXT = """
 
 Hi {}, My name is {} !
 
-I am saber anime themed bot 
-
-𝓘 𝓪𝓶 𝓽𝓱𝓮 𝓼𝔀𝓸𝓻𝓭 𝓱𝓮𝓻𝓸  𝓸𝓷𝓮 𝓸𝓯 𝓽𝓱𝓮 𝓗𝓮𝓻𝓸 𝓸𝓯 𝓱𝓸𝓵𝔂 𝓰𝓻𝓪𝓲𝓵 𝔀𝓪𝓻 𝓘 𝓪𝓶 𝓼𝓾𝓶𝓶𝓸𝓷𝓮𝓭 𝓫𝔂 𝓶𝔂 𝓶𝓪𝓼𝓽𝓮𝓻 𝓽𝓸 𝓱𝓮𝓵𝓹 𝓱𝓲𝓶
+I am an Anime themed group management bot with some extra features.
 
 I HOPE I WILL ABLE TO MAINTAIN YOUR GROUP
 
-MY SUPPORT GROUP IS @fateunion
+MY SUPPORT GROUP IS @jassicasupport
 
 HIT HELP FOR COMMAND /help.
 
@@ -152,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 BOT_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="CLICK HERE TO SUMMON ME ",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text=" add Jassica to your group ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
